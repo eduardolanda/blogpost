@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "node index",
-    "start": "nodemon index",
+    "serve": "nodemon index",
+    "start": "node index",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
